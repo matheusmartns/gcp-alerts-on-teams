@@ -1,4 +1,4 @@
-# teams-alerts
+# gcp-alerts-on-teams
 Cloud Function to send GCP alerts to MS Teams
 
 ![image](https://github.com/matheusmartns/teams-alerts/assets/9992922/9d13df52-36e8-4ca9-be53-3546ddde0ce1)
