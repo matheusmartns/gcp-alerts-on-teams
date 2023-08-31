@@ -1,0 +1,41 @@
+{
+    "@type": "MessageCard",
+    "@context": "http://schema.org/extensions",
+    "themeColor": "ff0000",
+    "summary": "$condition_name",
+    "sections": [{
+        "activityTitle": "$condition_name",
+        "activitySubtitle": "$summary",
+        "facts": [{
+            "name": "Start Time",
+            "value": " "
+        }, {
+            "name": "Project",
+            "value": " "
+        }, {
+            "name": "Policy",
+            "value": " "
+        }, {
+            "name": "Condition",
+            "value": " "
+        }, {
+            "name": "Metric",
+            "value": " "
+        }, {
+            "name": "Threshold",
+            "value": " "
+        }, {
+            "name": "Observed",
+            "value": " "
+        }],
+        "markdown": true
+    }],
+    "potentialAction": [{
+        "@type": "OpenUri",
+        "name": "View Incident",
+        "targets": [{
+            "os": "default",
+            "uri": "$incident_url"
+        }]
+    }]
+}
